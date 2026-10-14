@@ -1,9 +1,9 @@
 class Grocery extends Product {
     private String expiryDate;
 
-    Grocery(String name, int price, String expiryDate) {
+    Grocery(String name, int price, String expiry) {
         super(name, price);
-        setExpiryDate(expiryDate);
+        setExpiryDate(expiry);
     }
 
     // getter
@@ -12,8 +12,8 @@ class Grocery extends Product {
     }
 
     // setter
-    public void setExpiryDate(String expiryDate) {
-        this.expiryDate = expiryDate;
+    public void setExpiryDate(String expiry) {
+        this.expiryDate = expiry;
     }
 
     public void displayExpiryDate() {
