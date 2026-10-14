@@ -6,5 +6,6 @@ public class Main {
         soap.displayProduct();
         soap.displayExpiryDate();
         System.out.println("Total of 2\n" + "Total Amount : " + soap.computeTotal(2));
+
     }
 }

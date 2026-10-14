@@ -3,11 +3,7 @@ class Grocery extends Product {
 
     Grocery(String name, int price, String expiryDate) {
         super(name, price);
-        this.expiryDate = expiryDate;
-    }
-
-    void displayExpiryDate() {
-        System.out.println("Expiry date : " + expiryDate);
+        setExpiryDate(expiryDate);
     }
 
     // getter
@@ -16,7 +12,11 @@ class Grocery extends Product {
     }
 
     // setter
-    public void setExpiryDate() {
+    public void setExpiryDate(String expiryDate) {
         this.expiryDate = expiryDate;
+    }
+
+    public void displayExpiryDate() {
+        System.out.println("Expiry date : " + expiryDate);
     }
 }
