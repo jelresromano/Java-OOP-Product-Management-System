@@ -9,11 +9,9 @@ public class Main {
         System.out.println("Total of 2\n" + "Total Amount : " + soap.computeTotal(2));
 
 
-        System.out.println();
-        System.out.println("Transportation");
+        System.out.println("\nTransportation");
+        transportation.displayProduct();
         transportation.displayTransportation();
         System.out.println("Total of 2\n" + "Total Amount : " + transportation.computeTotal(2));
-
-
     }
 }

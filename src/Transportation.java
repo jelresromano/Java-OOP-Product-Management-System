@@ -46,25 +46,10 @@ class Transportation extends Product {
         this.isAvailable = isAvailable;
     }
 
-    // methods
-     void available() {
-        if (isAvailable) {
-            System.out.println("Available");
-        } else {
-            System.out.println("Not available");
-        }
-    }
-
-    void notAvailable() {
-        if (!isAvailable) {
-            System.out.println("Not available");
-        }
-    }
-
     public void displayTransportation() {
         System.out.println("Speed : " + speed);
         System.out.println("Year Model : " + yearModel);
         System.out.println("Capacity : " + capacity);
-        System.out.println("Is Available : " + isAvailable);
+        System.out.println("Available: " + isAvailable);
     }
 }
